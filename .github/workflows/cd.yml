@@ -2,7 +2,7 @@
 name: deploy to ec2
 on:
   workflow_run:
-      workflow: ["Docker Image CI"]
+      workflows: ["Docker Image CI"]
       types: 
         - completed
 
