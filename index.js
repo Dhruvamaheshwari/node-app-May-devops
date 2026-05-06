@@ -8,8 +8,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send(`hello kya haal h jee <br> 
-        <a href="/home">home</a>
-    `);
+        <a href="/home">home</a>`);
 });
 
 app.get("/home", (req, res) => {
